@@ -1,0 +1,166 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "birthDate": "1991-11-07",
+      "email": "leanne.graham@adad.com",
+      "name": "Leanne Graham",
+      "position": "FullStack Developer",
+      "projects": [1, 2],
+      "recruitmentDate": "2017-06-15",
+      "gender": "female",
+      "score": 78,
+      "team": "A"
+   },
+   {
+      "id": 2,
+      "birthDate": "1993-04-13",
+      "email": "andrea.skiles@adad.com",
+      "name": "Andrea Skiles",
+      "position": "DevOps Engineer",
+      "projects": [5, 6],
+      "recruitmentDate": "2015-02-01",
+      "gender": "female",
+      "score": 82,
+      "team": "D"
+   },
+   {
+      "id": 3,
+      "birthDate": "1994-02-11",
+      "email": "nicholas.runolfsdottir@adad.com",
+      "name": "Nicholas Runolfsdottir",
+      "projects": [7],
+      "position": "FrontEnd Developer",
+      "recruitmentDate": "2021-01-01",
+      "gender": "male",
+      "score": 23,
+      "team": "C"
+   },
+   {
+      "id": 4,
+      "birthDate": "1995-12-10",
+      "email": "ervin.howell@adad.com",
+      "name": "Ervin Howell",
+      "position": "FrontEnd Developer",
+      "projects": [1],
+      "recruitmentDate": "2019-07-01",
+      "gender": "male",
+      "score": 55,
+      "team": "A"
+   },
+   {
+      "id": 5,
+      "birthDate": "1988-05-19",
+      "email": "clementina.bauch@adad.com",
+      "name": "Clementina Bauch",
+      "position": "FullStack Developer",
+      "projects": [3, 4],
+      "recruitmentDate": "2015-08-20",
+      "gender": "female",
+      "score": 90,
+      "team": "B"
+   },
+   {
+      "id": 6,
+      "birthDate": "1987-10-03",
+      "email": "dennis.schulist@adad.com",
+      "name": "Dennis Schulist",
+      "position": "FullStack Developer",
+      "projects": [7, 8],
+      "recruitmentDate": "2014-06-12",
+      "gender": "male",
+      "score": 94,
+      "team": "C"
+   },
+   {
+      "id": 7,
+      "birthDate": "1994-07-28",
+      "email": "diego.wesley@adad.com",
+      "name": "Diego Wesley",
+      "position": "DevOps Engineer",
+      "projects": [5, 6],
+      "recruitmentDate": "2018-03-03",
+      "gender": "male",
+      "score": 69,
+      "team": "D"
+   },
+   {
+      "id": 8,
+      "birthDate": "1990-01-07",
+      "email": "glenna.reichert@adad.com",
+      "name": "Glenna Reichert",
+      "position": "FullStack Developer",
+      "projects": [3, 4],
+      "recruitmentDate": "2016-11-08",
+      "gender": "female",
+      "score": 79,
+      "team": "B"
+   },
+   {
+      "id": 9,
+      "birthDate": "1992-02-15",
+      "email": "emma.weissnat@adad.com",
+      "name": "Emma Weissnat",
+      "position": "FullStack Developer",
+      "projects": [7, 8],
+      "recruitmentDate": "2016-12-10",
+      "gender": "female",
+      "score": 70,
+      "team": "C"
+   },
+   {
+      "id": 10,
+      "birthDate": "1992-05-16",
+      "email": "grace.harrison@adad.com",
+      "name": "Grace Harrison",
+      "position": "FullStack Developer",
+      "recruitmentDate": "2016-11-21",
+      "projects": [1, 2],
+      "gender": "female",
+      "score": 72,
+      "team": "A"
+   }
+  ],
+  "projects": [
+     {
+        "id": 1,
+        "name": "E-commerce front",
+        "repo": "https://gitlab.com/adad/e-commerce-front"
+     },
+     {
+        "id": 2,
+        "name": "E-commerce api",
+        "repo": "https://gitlab.com/adad/e-commerce-api"
+     },
+     {
+        "id": 3,
+        "name": "Administration panel",
+        "repo": "https://gitlab.com/adad/administration-panel"
+     },
+     {
+        "id": 4,
+        "name": "Administration api",
+        "repo": "https://gitlab.com/adad/administration-api"
+     },
+     {
+        "id": 5,
+        "name": "AWS platform",
+        "repo": "https://gitlab.com/adad/aws-platform"
+     },
+     {
+        "id": 6,
+        "name": "Jenkins deployment",
+        "repo": "https://gitlab.com/adad/jenkins-deployment"
+     },
+     {
+        "id": 7,
+        "name": "Sales analytics front",
+        "repo": "https://gitlab.com/adad/sales-analytics-front"
+     },
+     {
+        "id": 8,
+        "name": "Sales analytics back",
+        "repo": "https://gitlab.com/adad/sales-analytics-back"
+     }
+  ]
+}
