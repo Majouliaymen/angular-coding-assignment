@@ -1,21 +1,9 @@
 First of all, thank you for showing interest to become a part of Adad. We wish you best of luck for the test. Please read the entire document carefully before you start writing code.
 
-# How to send your code?
-
-* Fork the Github repository into your own **private** personal repository in **Github**
-* Push your code into a new branch with the following name:
-  * firstname_lastname
-  * Please use snake case format
-* Invite your reviewers as **Collaborator**:
-  * Open the following menu: **Settings > Collaborators**
-  * Click on **Add people** button
-  * Add **oumayma-ltaief** and **bassemkassis**
-* Create a new pull request and set **oumayma-ltaief** and **bassemkassis** as Reviewers
-
 # Coding Assignment
 We want you to create an Angular application that replies to the following notes. You should use:
-- Angular latest stable version
-- [Primeng library](https://primeng.org/installation) along with [Primeflex library](https://primeflex.org/installation) CSS utility library to make the pages look nice.
+- Angular v18
+- [Primeng library v17](https://v17.primeng.org/installation) along with [Primeflex library](https://primeflex.org/installation) CSS utility library to make the pages look nice.
 
 
 ### API
@@ -32,17 +20,17 @@ Make sure to not change the db.json file content.
   - Email
   - Gender
   - Age
-  - Recruitment date
+  - Recrutement date
   - Position
   - Score of the employee.
 - To show the age, you should create a pipe.
-- To show the score, you should create **a custom component**: an employee score is a number out of 100. A score is displayed as a [rating](https://primeng.org/rating) of its score out of 10 (in mode readonly).\
-Example: If an employee has a score of 76 then 7 out of 10 stars should be displayed as rating.
-- Show the list in a [card](https://primeng.org/card) format rather than a simple list. Card should be **a custom component** with input parameters.
-- At the top of employees list area add an [input text](https://primeng.org/inputtext) to filter by employee's name.
+- To show the score, you should create **a custom component**: an employee score is a number out of 100. A score is displayed as a [rating](https://v17.primeng.org/rating) of its score out of 10 (in mode readonly).\
+Example: If an employee has 76 as score then 7 out of 10 stars should be displayed as rating.
+- Show the list in a [card](https://v17.primeng.org/card) format rather than a simple list. Card should be **a custom component** with input parameters.
+- At the top of employees list area add an [input text](https://v17.primeng.org/inputtext) to filter by employee's name.
 
 ### Employees statistics area
-- At the top of employees page display a statistic area (it should be **a custom component**). It should provide these information:
+- At the top of employees page display a statistic area (it should be **a custom component**). It should provide these informations:
   - How many employees do we have?
   - How many male employees do we have?
   - How many female employees do we have?
@@ -59,7 +47,7 @@ Example: If an employee has a score of 76 then 7 out of 10 stars should be displ
   - Team
   - Seniority in the company: for how many years an employee has worked for the company
   - List of projects that he/she occupies
-- All these data should be displayed via the [card](https://primeng.org/rating) based custom component.
+- All these data should be displayed via the [card](https://v17.primeng.org/card) based custom component.
 
 # Assessment Criteria
 - Code quality of the Angular Code.
