@@ -1,5 +1,16 @@
 First of all, thank you for showing interest to become a part of Adad. We wish you best of luck for the test. Please read the entire document carefully before you start writing code.
 
+# How to send your code?
+* Fork the Github repository into your own **private** personal repository in **Github**
+* Push your code into a new branch with the following name:
+  * firstname_lastname
+  * Please use snake case format
+* Invite your reviewers as **Collaborator**:
+  * Open the following menu: **Settings > Collaborators**
+  * Click on **Add people** button
+  * Add **oumayma-ltaief** and **bassemkassis**
+* Create a new pull request and set **oumayma-ltaief** and **bassemkassis** as Reviewers
+
 # Coding Assignment
 We want you to create an Angular application that replies to the following notes. You should use:
 - Angular v18
