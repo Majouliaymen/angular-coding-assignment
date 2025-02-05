@@ -1,0 +1,76 @@
+
+<div class="statistics-container">
+  <div class="grid">
+    <div class="col-12 md:col-4">
+      <div class="stat-card total-employees">
+        <div class="stat-icon">
+          <i class="pi pi-users"></i>
+        </div>
+        <div class="stat-content">
+          <span class="stat-label">Total Employees</span>
+          <span class="stat-value">{{totalEmployees}}</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 md:col-4">
+      <div class="stat-card male-employees">
+        <div class="stat-icon">
+          <i class="pi pi-user"></i>
+        </div>
+        <div class="stat-content">
+          <span class="stat-label">Male Employees</span>
+          <span class="stat-value">{{maleEmployees}}</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 md:col-4">
+      <div class="stat-card female-employees">
+        <div class="stat-icon">
+          <i class="pi pi-user"></i>
+        </div>
+        <div class="stat-content">
+          <span class="stat-label">Female Employees</span>
+          <span class="stat-value">{{femaleEmployees}}</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 md:col-4">
+      <div class="stat-card teams">
+        <div class="stat-icon">
+          <i class="pi pi-sitemap"></i>
+        </div>
+        <div class="stat-content">
+          <span class="stat-label">Teams</span>
+          <span class="stat-value">{{teams}}</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 md:col-4">
+      <div class="stat-card employee-year">
+        <div class="stat-icon">
+          <i class="pi pi-star"></i>
+        </div>
+        <div class="stat-content">
+          <span class="stat-label">Employee of the Year</span>
+          <span class="stat-value">{{employeeOfTheYear.name || 'None'}}</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 md:col-4">
+      <div class="stat-card latest-hire">
+        <div class="stat-icon">
+          <i class="pi pi-user-plus"></i>
+        </div>
+        <div class="stat-content">
+          <span class="stat-label">Latest Hire</span>
+          <span class="stat-value">{{lastHiredEmployee.name || 'N/A'}}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

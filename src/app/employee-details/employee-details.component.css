@@ -1,0 +1,45 @@
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.employee-card {
+  width: 100%;
+  max-width: 300px;
+  transition: transform 0.2s;
+}
+
+.employee-card:hover {
+  transform: translateY(-5px);
+}
+
+.employee-details {
+  padding: 1rem 0;
+}
+
+
+:host ::ng-deep .p-card {
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+}
+
+:host ::ng-deep .p-card {
+  padding: 1.5rem;
+}
+
+:host ::ng-deep .p-card .p-card-footer {
+  padding-top: 1rem;
+  border-top: 1px solid var(--surface-border);
+}
+
+@media screen and (max-width: 320px) {
+  .employee-card {
+    max-width: 100%;
+  }
+}
+.project-item {
+  margin: 10px 0;
+}

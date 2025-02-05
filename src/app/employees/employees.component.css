@@ -1,0 +1,139 @@
+.container-employees-section {
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  align-content: flex-start;
+}
+.card-size {
+  width: 33%;
+  padding: 10px;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 500vh;
+  padding: 1rem;
+}
+
+.employee-card {
+  width: 100%;
+  transition: transform 0.2s;
+}
+
+.employee-card:hover {
+  transform: translateY(-5px);
+}
+
+.employee-details {
+  padding: 1rem 0;
+}
+
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+:host ::ng-deep .p-card {
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+}
+
+:host ::ng-deep .p-card {
+  padding: 1.5rem;
+}
+
+:host ::ng-deep .p-card .p-card-footer {
+  padding-top: 1rem;
+  border-top: 1px solid var(--surface-border);
+}
+
+@media screen and (max-width: 320px) {
+  .employee-card {
+    max-width: 100%;
+  }
+}
+.project-item {
+  margin: 10px 0;
+}
+
+.search-section {
+  width: 100%;
+  max-width: 500px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 1rem 1rem 1rem 2.5rem;
+  border-radius: 2rem;
+  background: var(--surface-ground);
+  border: 1px solid var(--surface-border);
+  transition: all 0.2s;
+}
+
+.search-input:focus {
+  border-color: var(--primary-color);
+}
+.header-section {
+  margin-bottom: 2rem;
+  padding: 2rem;
+  background: var(--surface-card);
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+}
+
+.title-section {
+  margin-bottom: 1.5rem;
+}
+
+.main-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+.subtitle {
+  color: var(--text-color-secondary);
+  margin: 0;
+}
+
+.search-section {
+  width: 100%;
+  max-width: 500px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 1rem 1rem 1rem 2.5rem;
+  border-radius: 2rem;
+  background: var(--surface-ground);
+  border: 1px solid var(--surface-border);
+  transition: all 0.2s;
+}
+
+.search-input:focus {
+  border-color: var(--primary-color);
+}
+
+:host ::ng-deep {
+  .p-input-icon-left {
+    width: 100%;
+
+    i {
+      left: 1rem;
+      color: var(--text-color-secondary);
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header-section {
+    padding: 1.5rem;
+  }
+
+  .main-title {
+    font-size: 1.5rem;
+  }
+}

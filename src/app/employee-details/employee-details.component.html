@@ -1,0 +1,65 @@
+
+<div class="card-container">
+  <p-card styleClass="employee-card">
+    <ng-template pTemplate="header">
+      <div class="flex align-items-center gap-3 p-3 border-bottom-1 surface-border">
+        <p-avatar
+          [label]="employee.name.charAt(0)"
+          styleClass="mr-2"
+          [style]="{ 'background-color': employee.gender === 'male' ? '#4CAF50' : '#E91E63', color: '#ffffff' }"
+          size="large"
+          shape="circle">
+        </p-avatar>
+        <div>
+          <h2 class="m-0 font-semibold">{{ employee.name }}</h2>
+          <p-tag
+            [value]="employee.position"
+            [rounded]="true">
+          </p-tag>
+        </div>
+      </div>
+    </ng-template>
+
+    <div class="employee-details">
+      <div class="info-row">
+        <i class="pi pi-envelope"></i>
+        <span class="truncate">{{ employee.email }}</span>
+      </div>
+
+      <div class="info-row">
+        <i class="pi pi-user"></i>
+        <span>{{ employee.gender | titlecase }}</span>
+      </div>
+
+      <div class="info-row">
+        <i class="pi pi-briefcase"></i>
+        <span>Seniority: {{ seniority }} years</span>
+      </div>
+      <div class="info-row">
+        <i class="pi pi-users"></i>
+        <span>Team: <p-chip [label]="employee.team" styleClass="team-chip"></p-chip></span>
+      </div>
+    </div>
+
+    <ng-template pTemplate="footer">
+
+      <div class="projects-section">
+        <h3 class="text-sm font-semibold mb-2">
+          <i class="pi pi-folder mr-2"></i>List of Projects :
+        </h3>
+        <div class="project-list">
+          <div *ngFor="let project of projects">
+            <div class="project-item">
+              <p-chip
+                [label]="project.name"
+                styleClass="project-chip"
+                [removable]="false">
+              </p-chip>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </ng-template>
+  </p-card>
+</div>

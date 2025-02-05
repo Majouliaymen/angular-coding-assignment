@@ -1,0 +1,46 @@
+
+<div class="card-container">
+  <p-card styleClass="employee-card">
+    <ng-template pTemplate="header">
+      <div class="flex align-items-center gap-3 p-3 border-bottom-1 surface-border">
+        <p-avatar
+          [label]="employee.name.charAt(0)"
+          styleClass="mr-2"
+          [style]="{ 'background-color': employee.gender === 'male' ? '#4CAF50' : '#E91E63', color: '#ffffff' }"
+          size="large"
+          shape="circle">
+        </p-avatar>
+        <div>
+          <h2 class="m-0 font-semibold">{{ employee.name }}</h2>
+          <p-tag
+            [value]="employee.position"
+            [rounded]="true">
+          </p-tag>
+        </div>
+      </div>
+    </ng-template>
+
+    <div class="employee-details">
+      <div class="info-row">
+        <i class="pi pi-envelope"></i>
+        <span class="truncate">{{ employee.email }}</span>
+      </div>
+
+      <div class="info-row">
+        <i class="pi pi-user"></i>
+        <span>{{ employee.gender | titlecase }}</span>
+      </div>
+
+      <div class="info-row">
+        <i class="pi pi-calendar"></i>
+        <span>Recrutement Date: {{ employee.recruitmentDate }}</span>
+      </div>
+
+    </div>
+
+    <ng-template pTemplate="footer">
+      <p>Score: <app-employee-score [score]="employee.score"></app-employee-score></p>
+
+    </ng-template>
+  </p-card>
+</div>

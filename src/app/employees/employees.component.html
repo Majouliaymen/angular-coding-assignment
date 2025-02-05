@@ -1,0 +1,28 @@
+<div class="">
+  <div class="header-section">
+    <div class="title-section">
+      <h1 class="main-title">Liste of employee</h1>
+    </div>
+    <div class="search-section">
+          <span class="p-input-icon-left">
+            <i class="pi pi-search"></i>
+            <input
+              pInputText
+              type="text"
+              (input)="applyFilter()"
+              [(ngModel)]="filterText"
+              placeholder="Search employees..."
+              class="search-input"
+            />
+          </span>
+    </div>
+  </div>
+  <div class="container-employees-statistics-section ">
+    <app-employee-statistics [employees]="employees"></app-employee-statistics>
+  </div>
+  <div class="container-employees-section flex">
+    <div class=" card-size" *ngFor="let employee of filteredEmployees">
+      <app-employee-card [employee]="employee"></app-employee-card>
+    </div>
+  </div>
+</div>

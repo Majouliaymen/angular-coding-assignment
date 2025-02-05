@@ -1,0 +1,92 @@
+.statistics-container {
+  margin: 1rem 0;
+}
+
+.stat-card {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: var(--surface-card);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+  transition: transform 0.2s;
+  margin-bottom: 1rem;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+}
+
+.stat-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.stat-icon i {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.stat-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-label {
+  font-size: 0.875rem;
+  color: var(--text-color-secondary);
+  margin-bottom: 0.5rem;
+}
+
+.stat-value {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+.total-employees {
+  .stat-icon {
+    background: linear-gradient(135deg, #2196F3 0%, #1565C0 100%);
+  }
+}
+
+.male-employees {
+  .stat-icon {
+    background: linear-gradient(135deg, #4CAF50 0%, #2E7D32 100%);
+  }
+}
+
+.female-employees {
+  .stat-icon {
+    background: linear-gradient(135deg, #E91E63 0%, #C2185B 100%);
+  }
+}
+
+.teams {
+  .stat-icon {
+    background: linear-gradient(135deg, #FF9800 0%, #F57C00 100%);
+  }
+}
+
+.employee-year {
+  .stat-icon {
+    background: linear-gradient(135deg, #9C27B0 0%, #7B1FA2 100%);
+  }
+}
+
+.latest-hire {
+  .stat-icon {
+    background: linear-gradient(135deg, #00BCD4 0%, #0097A7 100%);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .stat-card {
+    margin-bottom: 1rem;
+  }
+}
