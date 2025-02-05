@@ -31,7 +31,7 @@ Make sure to not change the db.json file content.
   - Email
   - Gender
   - Age
-  - Recrutement date
+  - Recruitment date
   - Position
   - Score of the employee.
 - To show the age, you should create a pipe.
